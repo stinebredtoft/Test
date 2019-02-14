@@ -1,0 +1,65 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.indexVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.bg {
+    background-image: url("baggrundsfoto.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.flex__container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.dialog {
+    font-family: monospace;
+    align-self: center;
+    text-align: center;
+    color: white;
+    width: 400px;
+    background: black;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+
+.dialog h1 {
+    font-size: 40px;
+}
+
+.dialog button {
+    cursor: pointer;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    background-color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.navigation button {
+    width: 100px;
+}
+
+.navigation {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
